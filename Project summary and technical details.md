@@ -13,6 +13,7 @@ the columns because some columns had rankins with a range of 0-10 and others had
 0-5. Therefore, each column was normalized to fit a 0-1 range. This normalization, which was
 min/max normalization, was performed by a function that was applied to each attribute and row
 with the use of a “.apply” function.
+
 The Naive Bayes classifier used was specifically designed for working with categorical data. All
 that was needed was to find the general probabilities of a value belonging to a specific class in
 the specified dataset. This is referred to as the prior probability. This results in two values, each
