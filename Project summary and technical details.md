@@ -2,7 +2,7 @@
 Analysis and modeling of a dataset from an experiment with speed dating, with the aim to perform predictive modeling as well as some exploratory data analysis
 
 In this project, I did some exploratory data analysis as well as classification utilizing a Naive
-Bayes classifier that is specifically made for datasets with categorical variables.
+Bayes classifier (built from scratch without the use of any Python packages besides NumPy and Pandas) that is specifically made for datasets with categorical variables.
 The first thing I did was set na values in my dataset equal to the character “?”, as missing
 values in the dataset were represented by the “?” character in the original dataset. I also made
 use of the scikit.learn label encoding function to assign the string type variables as ordinal
